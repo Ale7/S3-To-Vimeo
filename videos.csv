@@ -1,0 +1,8 @@
+bucket,key,date,size,exclude,priority,uploaded
+my-bucket-1,sample-videos/video_file1.mp4,2021-01-06 22:03:10+00:00,240425702,0,1,0
+my-bucket-1,sample-videos/video_file2.mp4,2021-01-11 17:59:43+00:00,249654612,0,3,0
+my-bucket-2,published-videos/video_file1.mp4,2021-01-11 17:59:43+00:00,504230652,1,0,0
+my-bucket-2,published-videos/video_file2.mp4,2021-01-11 18:06:54+00:00,624933092,0,2,0
+my-bucket-2,published-videos/video_file3.mp4,2021-01-11 18:22:04+00:00,384240672,0,1,0
+my-bucket-2,published-videos/video_file4.mp4,2021-01-11 18:29:09+00:00,476280973,0,1,1
+my-bucket-2,published-videos/video_file5.mp4,2021-01-13 14:54:09+00:00,598280122,0,3,0
