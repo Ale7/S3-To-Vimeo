@@ -7,10 +7,9 @@ An AWS Lambda script which automates the process of transfering a large number o
 ### videos.csv
 
 This videos.csv file lists all files to be uploaded to Vimeo. Look at the videos.csv file for an example, and the structure below for more information.
-
 get_videos.py can help in building the videos.csv file.
 
-Structure:
+** Structure: **
 
 | **bucket** | **key** | **date** | **size** | **exclude** | **priority** | **uploaded** |
 | ---------- | ------- | -------- | -------- | ----------- | ------------ | ------------ |
@@ -18,9 +17,7 @@ Structure:
 
 ### s3_to_vimeo Lambda function
 
-Create an AWS Lambda function which is triggered via an EventBridge that runs every hour. Set the correct variable throughout s3_to_vimeo.py.
-
-You will need to set the following variables found in the s3_to_vimeo.py script:
+Create an AWS Lambda function which is triggered via an EventBridge that runs every hour. Set the correct variables throughout s3_to_vimeo.py.
 
 * VIDEOS_CSV_BUCKET - The name of the S3 bucket you created that contains videos.csv
 * VIDEOS_CSV_KEY - The name of the videos.csv file (should be videos.csv)
