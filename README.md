@@ -9,7 +9,7 @@ An AWS Lambda script which automates the process of transfering a large number o
 This videos.csv file lists all files to be uploaded to Vimeo. Look at the videos.csv file for an example, and the structure below for more information.
 get_videos.py can help in building the videos.csv file.
 
-** Structure: **
+**Structure:**
 
 | **bucket** | **key** | **date** | **size** | **exclude** | **priority** | **uploaded** |
 | ---------- | ------- | -------- | -------- | ----------- | ------------ | ------------ |
