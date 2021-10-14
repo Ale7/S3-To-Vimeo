@@ -12,7 +12,8 @@ get_videos.py can help in building the videos.csv file.
 
 Structure:
 
-| **bucket** | **key** | **date**  | **size** | **exclude** | **priority** | **uploaded** |
+| **bucket** | **key** | **date** | **size** | **exclude** | **priority** | **uploaded** |
+| ---------- | ------- | -------- | -------- | ----------- | ------------ | ------------ |
 | S3 bucket containing .mp4 file | file path | date with following format: 2021-01-01 16:05:00+00:00 | file size (bytes) | exclude flag (1 is exclude from upload process) | priority level (1 is highest priority) | uploaded flag (1 is already uploaded)
 
 ### s3_to_vimeo Lambda function
